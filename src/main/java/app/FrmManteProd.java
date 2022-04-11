@@ -266,7 +266,6 @@ public class FrmManteProd extends JFrame {
 			limpiarCajas();
 		} catch(Exception e) {
 			txtSalida.setText("Producto NO Registrado-->ERROR: " + e.getMessage());
-			//em.getTransaction().rollback();
 		}
 		em.close();
 	}
